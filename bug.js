@@ -1,0 +1,1 @@
+This error occurs when using the `useState` hook in React Native with an object or array as the initial state.  If you directly modify the state object/array, React won't detect the changes and re-render the component. This leads to stale data in your UI.
